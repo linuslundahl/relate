@@ -17,21 +17,11 @@ export const EXTENSION_DIR_NAME = 'extensions';
 export const PACKAGE_JSON = 'package.json';
 export const EXTENSION_MANIFEST = 'relate.manifest.json';
 export const EXTENSION_MANIFEST_KEY = 'relate';
-export const EXTENSION_INDEX_HTML = 'index.html';
 export const EXTENSION_SHA_ALGORITHM = 'sha1';
 export const EXTENSION_NPM_PREFIX = '@relate-ext/';
 export const EXTENSION_URL_PATH = `https://neo.jfrog.io/artifactory/api/npm/npm-local-private/${EXTENSION_NPM_PREFIX}`;
 
-export const LOCALHOST_IP_ADDRESS = '127.0.0.1';
 export const BOLT_DEFAULT_PORT = ':7687';
-// @todo: move these?
-export const GOOGLE_AUTHENTICATION_CLIENT_ID =
-    'REDACTED_GOOGLE_CLIENT_ID';
-// According to this client_secret is not used as a secret in our case,
-// so it should be fine for it to be here.
-// https://developers.google.com/identity/protocols/oauth2#installed
-// https://tools.ietf.org/html/rfc8252#page-12
-export const GOOGLE_AUTHENTICATION_CLIENT_SECRET = 'REDACTED_GOOGLE_CLIENT_SECRET';
 
 export enum EXTENSION_TYPES {
     SYSTEM = 'SYSTEM',
